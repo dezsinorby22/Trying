@@ -12,7 +12,9 @@ namespace negyszogek
     {
         static void Main(string[] args)
         {
-            Negyszog negyszog1 = new Negyszog(1, 2, 3, 4);
+            
+	    Console.WriteLine("Szia user!");
+	    Negyszog negyszog1 = new Negyszog(1, 2, 3, 4);
             Console.WriteLine(negyszog1.Kerulet);
 
             Teglalap teglalap1 = new Teglalap(2,3);
